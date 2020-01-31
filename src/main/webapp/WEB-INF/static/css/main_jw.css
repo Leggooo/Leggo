@@ -10,17 +10,21 @@
 			font-weight:bold;
 			
 		}
+		
 		#text {
 			font-family:  배달의민족 을지로체 TTF; 
 			text-transform: uppercase;
 			background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
 		}
+		
 		#mainlogo{
 			width:60%
 		}
+		
 		#menubtn{
 			text-align: center;
 		}
+		
 		#freehead{
 			background-color: #365da2;
 			text-align: center;
