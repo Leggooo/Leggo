@@ -23,5 +23,4 @@
 	</definition>
 	
 	<definition name="intro" extends="introTemplate"></definition>
-
 </tiles-definitions>

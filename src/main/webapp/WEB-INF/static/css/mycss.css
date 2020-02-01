@@ -7,6 +7,8 @@
 		background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+		-ms-background-clip: text;
+		-ms-text-fill-color: transparent;		
 }
 #header {
 	text-align: center;

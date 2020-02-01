@@ -39,8 +39,8 @@
 				</div>
 			</div>
 			<div id="pass_hint_answer" class="field quarter">
-				<label for="pass_hint_answer">비밀번호 답변</label> <input type="text"
-					name="pass_hint_answer" id="pass_hint_answer" value="ABC123"
+				<label for="pass_hint_answer">비밀번호 답변</label> 
+				<input type="text" name="pass_hint_answer" id="pass_hint_answer" value="ABC123"
 					class="fit" />
 			</div>		
 		</div>

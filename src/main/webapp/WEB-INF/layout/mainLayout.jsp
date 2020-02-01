@@ -18,7 +18,7 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div class="container">
+	<div class="container" style="overflow:auto;">
 		<div class="row">	
 			<div class="col-md-12">
 				<!-- TOP -->
@@ -34,7 +34,6 @@
 			</div>
 		</div>
 	</div>
-	
 </body>
 
 <!-- Scripts -->
