@@ -2,7 +2,7 @@
 		
 		#sidebar{
 			z-index:3;
-			width:300px;
+			width:30%;
 			font-weight:bold;
 			
 		}
@@ -13,9 +13,9 @@
 			background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
 		}
 		
-		#mainlogo{
+/* 		#mainlogo{
 			width: 70%
-		}
+		} */
 		
 		#menubtn{
 			text-align: center;
@@ -34,8 +34,7 @@
 			color: white;
 			border-radius: 0px 0px 10px 10px;
 		}
-		
-		
+				
 		.w3-light-grey{
 			max-width: 100%;
 		}
@@ -59,7 +58,7 @@
 			padding: 2%;
 		}
 		.container{
-			/* width: 100%; */
+			width: 100%;
 			height: 100%;
 			margin-top: 3%;
 			margin-bottom: 3%;
@@ -91,7 +90,7 @@
 		}
 		.writecontent{
 			resize: none;
-			width: 90%;
+			width: 70%;
 		}
 		.title{
 			border: 1px solid #365da2;
@@ -107,10 +106,6 @@
 	  	
 	  	#leftMenu{
 	  		/* background-color: red; */
-	  	}
-	  	
-	  	img{
-	  		width: 30%;
 	  	}
 	  	
 	  	#blankMenu{

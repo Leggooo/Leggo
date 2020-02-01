@@ -77,7 +77,8 @@
 						placeholder="우편번호" /></li>
 					<li><input type="button" id="sign_up_getaddr"
 						name="sign_up[getaddr]" onclick="execDaumPostcode()"
-						value="우편번호 찾기" class="button fit align-center"></li>
+						value="우편번호 찾기" class="button fit align-center"
+						style="font-size: 15pt;"></li>
 				</ul>
 			</div>
 			<div id="sign_up_address" class="field quarter">
@@ -91,7 +92,6 @@
 					required="required" placeholder="본인 확인 이메일" />
 			</div>
 		</div>
-		<!-- align-center style="float: left;" -->
 		<div class="align-center" style="align-content: center;">
 			<input type="submit" value="수정" class="button quarter color2" style="font-size: 10pt"/>
 			<input type="reset" value="취소" class="button quarter color2" style="font-size: 10pt"/>
