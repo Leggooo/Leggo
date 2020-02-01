@@ -18,22 +18,23 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div>
-	<div>
-		<!-- TOP -->
-		<tiles:insertAttribute name="top"></tiles:insertAttribute>
-	</div>
-	<div class="row">
-		<div class="col-md-3">
-			<!-- MENU -->
-			<tiles:insertAttribute name="menu"></tiles:insertAttribute>
+	<div class="container">
+		<div class="row">	
+			<div class="col-md-12">
+				<!-- TOP -->
+				<tiles:insertAttribute name="top"></tiles:insertAttribute>
+			</div>
+			<div class="col-md-3">
+				<!-- MENU -->
+				<tiles:insertAttribute name="menu"></tiles:insertAttribute>
+			</div>
+			<div class="col-md-9">
+				<!-- CONTENT -->
+				<tiles:insertAttribute name="content"></tiles:insertAttribute>
+			</div>
 		</div>
-		<div class="col-md-9">
-			<!-- CONTENT -->
-			<tiles:insertAttribute name="content"></tiles:insertAttribute>
-		</div>
 	</div>
-<div>
+	
 </body>
 
 <!-- Scripts -->
