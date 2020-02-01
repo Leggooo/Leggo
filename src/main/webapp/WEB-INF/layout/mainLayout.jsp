@@ -33,7 +33,7 @@
 			<tiles:insertAttribute name="content"></tiles:insertAttribute>
 		</div>
 	</div>
-<div>
+</div>
 </body>
 
 <!-- Scripts -->
