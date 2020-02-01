@@ -11,7 +11,7 @@
 	  <div class="row">
 	    <!--맨 왼쪽 메뉴입니다 -->
 	    <div class="col-1" id="leftMenu">
-	    	<a href=""><img src="/leggo/images/leggo/MainLogo.png" alt="Random Name" style="height: 100%; width: 100%;"></a></div>
+	    	<a href="#"><img src="/leggo/images/leggo/MainLogo.png" alt="Random Name" style="height: 100%; width: 100%;"></a></div>
 	  	<!--가운데 빈 공간입니다 -->
 	    <div class="col-8" id="blankMenu"></div>
 	    <!--맨 오른쪽 메뉴 3개입니다 -->
