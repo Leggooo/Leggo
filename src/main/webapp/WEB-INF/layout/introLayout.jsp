@@ -18,12 +18,12 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div>
+
 	<div>
 		<!-- CONTENT -->
 		<tiles:insertAttribute name="content"></tiles:insertAttribute>
 	</div>
-<div>
+
 </body>
 
 <!-- Scripts -->

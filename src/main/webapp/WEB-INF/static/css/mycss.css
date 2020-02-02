@@ -7,6 +7,8 @@
 		background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+		-ms-background-clip: text;
+		-ms-text-fill-color: transparent;		
 }
 #header {
 	text-align: center;
@@ -19,8 +21,7 @@
 	text-align: center;
 	width: 100%;
 	margin-top:-20px;
-	padding: 3.5rem 3.5rem 2rem 3.5rem;
-	
+	padding: 3.5rem 3.5rem 2rem 3.5rem;	
 }
 
 #topColor{
@@ -49,9 +50,12 @@
 /* ======================================================================================================= */
 
 /* ---- ¼±ÇÏ CSS ------------------------------------------------------------------------------------------ */
-.horizontalSort {
+/* .horizontalSort {
 	float:left;
-	width:45%;
-	padding: 10px;
+	width:50%;
+	padding: 0px;
+} */
+label{
+	font-size: 15pt;	
 }
 /* ======================================================================================================= */
