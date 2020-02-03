@@ -9,4 +9,8 @@ public class introController {
 	public String main() {
 		return "intro";
 	}
+	
+	public String subMain() {
+		return null;
+	}
 }
