@@ -112,9 +112,9 @@
 
 				// Enable IE mode.
 					$body.addClass('is-ie');
-
+				//main.js 116~130번째 줄이 문제의 화면을 관리한다.	
 				// Page widths.
-					$window
+					/*$window
 						.on('load resize', function() {
 
 							// Calculate wrapper width.
@@ -127,7 +127,7 @@
 							// Apply to page.
 								$html.css('width', w + 'px');
 
-						});
+						});*/
 
 			}
 
@@ -139,6 +139,7 @@
 					var $this = $(this),
 						$img = $this.children('img');
 
+					
 					// Apply img as background.
 						$this
 							.css('background-image', 'url("' + $img.attr('src') + '")')
