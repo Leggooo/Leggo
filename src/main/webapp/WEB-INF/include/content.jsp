@@ -8,7 +8,6 @@
 </head>
 <body>
 	<form name="update_info" method="post" class="auth-form">
-		<!-- <div class="horizontalSort"> -->
 		<!-- <h3 class="major">회원 정보 수정</h3> -->
 		<div class="horizontalSort">
 			<div id="id_info" class="field quarter">
@@ -49,7 +48,7 @@
 				<label for="user_name">이름</label> 
 				<input type="text" name="user_name" id="user_name" value="홍길동" class="fit" />
 		</div>
-		<div id="user_gender" class="field quarter">
+<!-- 		<div id="user_gender" class="field quarter">
 			<label for="user_gender">성별</label>
 				<div class="select-wrapper fit">
 					<select name="user_gender" id="user_gender">
@@ -57,11 +56,31 @@
 						<option value="1">여자</option>
 					</select>
 				</div>
+		</div> -->
+		
+		
+		<div id="user_gender" class="field quarter">
+			<label for="user_gender">성별</label>
+				<div class="select-wrapper fit">
+				<input type="radio" id="men" name="tab" checked="checked" />		
+				<input type="radio" id="women" name="tab" /><!-- checked="checked" -->
+				<section class="buttons">	
+					<label for="men">남자</label>
+					<label for="women">여자</label>
+				</section>
+				
+					<!-- <select name="user_gender" id="user_gender">
+						<option value="1">남자</option>
+						<option value="1">여자</option>
+					</select> -->
+				</div>
 		</div>
+		
+		
 
-			<div id="sign_up_tel" class="field quarter">
-				<label for="sign_up_tel">생년월일</label> <input type="text"
-					name="sign_up_tel" id="sign_up_tel" value="1990/01/31" class="fit"
+			<div id="sign_up_birth" class="field quarter">
+				<label for="sign_up_birth">생년월일</label> <input type="text"
+					name="sign_up_birth" id="sign_up_birth" value="1990/01/31" class="fit"
 					required="required" placeholder="생년월일" />
 			</div>
 			<div id="sign_up_tel" class="field quarter">
