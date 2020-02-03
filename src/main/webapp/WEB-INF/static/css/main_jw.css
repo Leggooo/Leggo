@@ -1,12 +1,8 @@
 @charset "EUC-KR";
 		
-		html, body {
-			width: 100%;
-    	}
-		
 		#sidebar{
 			z-index:3;
-			width:400px;
+			width:30%;
 			font-weight:bold;
 			
 		}
@@ -17,9 +13,9 @@
 			background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
 		}
 		
-		#mainlogo{
-			width:60%
-		}
+/* 		#mainlogo{
+			width: 70%
+		} */
 		
 		#menubtn{
 			text-align: center;
@@ -39,10 +35,9 @@
 			color: white;
 			border-radius: 0px 0px 10px 10px;
 		}
-		
-		
+				
 		.w3-light-grey{
-			max-width: 1600px;
+			max-width: 100%;
 		}
 		
 		.w3-button{
@@ -65,11 +60,12 @@
 		}
 		.container{
 			width: 100%;
-			height: 80%;
-			padding-bottom: 5%;
-			margin:auto;
+			height: 100%;
+			margin-top: 3%;
+			margin-bottom: 3%;
 			text-align:center;
 			border: 1px solid #365da2;
+			background-color: #2f5597;
 			border-radius: 10px;
 		}
 		.table{
@@ -95,7 +91,7 @@
 		}
 		.writecontent{
 			resize: none;
-			width: 90%;
+			width: 70%;
 		}
 		.title{
 			border: 1px solid #365da2;
@@ -107,18 +103,10 @@
 		
 		
 /* Top CSS */
-		.row{
-  		background-color: #2f5597;
- 		border: none;
- 		padding-top: 1%;
-	  	}
+
 	  	
 	  	#leftMenu{
 	  		/* background-color: red; */
-	  	}
-	  	
-	  	img{
-	  		width: 20%;
 	  	}
 	  	
 	  	#blankMenu{
@@ -127,5 +115,5 @@
 	  	
 	  	.rightMenu{
 	  		/* background-color: red; */ 
-	  		text-align: right;
+	  		/* text-align: right; */
 	  	}
